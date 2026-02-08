@@ -5,10 +5,12 @@
   <img src="https://github.com/rodfloripa/LLM_em_monolito_vs_LLM_em_microservico/blob/main/Monolitico.png">
 </p>
 <p align="center">Fig1. Arquitetura Monolítica</p>
+<br><br>
 <p align="center">
   <img src="https://github.com/rodfloripa/LLM_em_monolito_vs_LLM_em_microservico/blob/main/Microsservi%C3%A7os.png">
 </p>
 <p align="center">Fig2. Arquitetura com Microserviços</p>
+<br><br>
 
 
 
