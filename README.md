@@ -18,6 +18,17 @@
 
 A transição entre uma arquitetura monolítica e uma baseada em microserviços é um marco na jornada de qualquer engenheiro de software. No contexto de um sistema **RAG (Retrieval-Augmented Generation)** rodando no AWS SageMaker, essa escolha impacta diretamente a estabilidade, o custo e a eficiência do hardware. Abaixo, detalhamos as vantagens e desvantagens de cada abordagem.
 
+<p align="left">
+Como rodar:
+  
+1. Faz o build, envia para o ECR e atualiza o endpoint no SageMaker:
+
+  make build && make push && make deploy
+
+2. Aguarde 15 minutos e digite make status,aguardando até ficar InService
+
+3. make test 
+</p>
 ---
 
 ## 1. Arquitetura Monolítica
